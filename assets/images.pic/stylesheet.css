@@ -1,0 +1,23 @@
+style.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing; border-box;
+}
+body{
+    height: 100vx;
+    background-image: linear-gradient(grba(0,0,0,0,6)grba(0,0,0,0,6)),url(coffee-background-space-text-85121087.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    color: #fff
+}
