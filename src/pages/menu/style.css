@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Chettan 2", cursive;
+  line-height: 1.5;
+}
+
+.header {
+  height: 4rem;
+  width: 100%;
+  background-color: orange;
+}
+.title {
+  text-align: center;
+  padding: 3rem 0;
+}
+@media screen and (max-width: 776px) {
+  .products {
+    flex-flow: column nowrap;
+    width: 90%;
+  }
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.product {
+  height: auto;
+  width: 30%;
+}
+.product img {
+  max-width: 100%;
+  width: 100%;
+}
+.prod-title {
+  text-align: center;
+  margin: auto 0;
+}
