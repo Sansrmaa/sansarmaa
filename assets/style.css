@@ -45,7 +45,6 @@ body {
 .gap-0 {
   gap: 20px;
 }
-/* useful ---> end */
 
 @media screen and (min-width: 776px) {
   .nav {
@@ -59,6 +58,11 @@ body {
   }
   .content {
     text-align: center;
+    padding-top: 1rem;
+    height: 3.5rem;
+  }
+  .content:hover {
+    background-color: rgb(255, 115, 0);
   }
   .contents a {
     text-decoration: none;
