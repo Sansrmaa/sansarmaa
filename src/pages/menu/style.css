@@ -17,14 +17,16 @@ body {
 .products {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: auto;
 }
 .product {
   height: auto;
   width: 30%;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 2rem;
 }
 .product img {
@@ -44,4 +46,7 @@ body {
   .product {
     width: 80%;
   }
+}
+.bar {
+  background-color: #e37c1c;
 }
