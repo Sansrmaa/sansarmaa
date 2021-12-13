@@ -12,7 +12,7 @@ body {
   background-color: #e37c1c;
 }
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
   background-color: white;
   border-radius: 10px;
@@ -30,6 +30,8 @@ textarea {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
+  width: 100%;
+  margin: auto;
 }
 .input textarea {
   height: auto;
